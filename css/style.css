@@ -1,0 +1,1186 @@
+
+/*
+Main ELEMENTS blocks START*/ 
+
+body{
+
+    background-image: url("..//img/bg.png");
+}
+
+h1{
+
+  
+    font-size: 150px;
+    top: -80px;
+    left: 200px;
+    position: relative;
+  
+    
+}
+
+h2{
+    
+    
+    font-size: 36px;
+    position: relative;
+    left: 200px;
+    top:-190px;
+
+}
+
+
+h3{
+
+    font-size: 40px;
+    color: white;
+
+
+}
+
+
+}
+
+.content{
+
+     
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+a {
+
+    text-decoration: none;
+    color: white;
+}
+
+
+.alpha-buttons {
+    
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 16;
+    -moz-border-radius: 16;
+    border-radius: 16px;
+  
+    color: #ffffff;
+    
+    font-size: 3em;
+    height: 2em;
+    width: 2em;
+    margin: 10px 10px 10px 10px;
+  
+    text-decoration: none;
+    
+    
+}
+
+
+
+.alpha-buttons:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #FE5757, #FE2E2E);
+  background-image: -moz-linear-gradient(top, #FE5757, #FE2E2E);
+  background-image: -ms-linear-gradient(top, #FE5757, #FE2E2E);
+  background-image: -o-linear-gradient(top, #FE5757, #FE2E2E);
+  background-image: linear-gradient(to bottom, #FE5757, #FE2E2E);
+  text-decoration: none;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+}
+
+
+
+
+
+.beta-buttons {
+    
+    position:  relative;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 16;
+    -moz-border-radius: 16;
+    border-radius: 16px;
+    font-family: 'Gorditas', cursive;
+    color: #ffffff;
+    
+    font-size: 2em;
+    height: 1.5em;
+    width: 1.5em;
+    top: -210px;
+  
+    
+ 
+  
+}
+
+
+
+.beta-buttons:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #FE5757, #FE2E2E);
+  background-image: -moz-linear-gradient(top, #FE5757, #FE2E2E);
+  background-image: -ms-linear-gradient(top, #FE5757, #FE2E2E);
+  background-image: -o-linear-gradient(top, #FE5757, #FE2E2E);
+  background-image: linear-gradient(to bottom, #FE5757, #FE2E2E);
+  text-decoration: none;
+}
+
+
+
+/*
+Main ELEMENT blocks END*/
+
+
+
+
+
+
+
+
+
+
+
+/*
+The grid system for this web app START*/
+
+
+/* Reusable column setup */
+.col {
+    border:0px solid rgba(0,0,0,0);
+    float:left;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    -moz-background-clip:padding-box !important;
+    -webkit-background-clip:padding-box !important;
+    background-clip:padding-box !important;
+}
+
+
+
+/*
+Column grids for dividing windows into 10 pieces START*/
+
+    @media screen and (min-width: 0px) {
+        
+        .col {
+            margin-left:0%;
+        	padding:0 0.5%;
+        }
+        
+        .row .col:first-child {
+            margin-left:0;
+            background-color: aqua;
+            max-width: 1400px;
+            
+        }
+        
+        
+        /*
+        Actual span class*/
+        
+        .span_1 {
+            width:10%;
+            display: inline;
+        }
+      
+    }
+
+/*
+Column grids for dividing windows into 10 pieces END*/
+
+/*
+The grid system for this web app END*/
+
+
+
+
+
+
+
+
+.title #main_menu:target{
+
+    display: block;
+
+
+}
+
+
+
+
+
+
+
+.content #alphabet:target{
+
+display: block;
+}
+
+#alphabet{
+
+display: none;
+}
+
+.content #quiz:target{
+    
+display: block;
+
+}
+
+#quiz{
+display: none;
+
+}
+
+
+/*
+CSS for Alif
+*/
+
+.content #alpha_1:target{
+    
+    display: block;
+    background: url(../img/sprt_1.jpg) 0px 0;
+    margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+   
+
+}
+
+#alpha_1{
+    
+    display: none;
+
+}
+
+
+
+/*
+CSS for Bae
+*/
+
+.content #alpha_2:target{
+    
+    display: block;
+    background: url(../img/sprt_1.jpg) -749px 0;
+   margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+#alpha_2{
+    
+    display: none;
+
+}
+
+
+/*
+CSS for Pae
+*/
+
+.content #alpha_3:target{
+    
+   display: block;
+    background: url(../img/sprt_1.jpg) -1498px 0;
+     margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+#alpha_3{
+    
+    display: none;
+
+}
+
+
+
+/*
+CSS for Tae
+*/
+
+
+
+.content #alpha_4:target{
+    
+   display: block;
+    background: url(../img/sprt_1.jpg) -2247px 0;
+     margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+#alpha_4{
+    
+    display: none;
+
+}
+
+
+
+
+/*
+CSS for TTae
+*/
+
+
+
+.content #alpha_5:target{
+    
+   display: block;
+    background: url(../img/sprt_1.jpg) -2996px 0;
+    margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+#alpha_5{
+    
+    display: none;
+
+}
+
+
+/*
+CSS for Sae
+*/
+
+
+
+.content #alpha_6:target{
+    
+   display: block;
+    background: url(../img/sprt_1.jpg) -3745px 0;
+     margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+#alpha_6{
+    
+    display: none;
+
+}
+
+
+/*
+CSS for Jeem
+*/
+
+
+
+.content #alpha_7:target{
+    
+   display: block;
+    background: url(../img/sprt_1.jpg) -4494px 0;
+     margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+#alpha_7{
+    
+    display: none;
+
+}
+
+
+/*
+CSS for Chae
+*/
+
+
+
+.content #alpha_8:target{
+    
+   display: block;
+    background: url(../img/sprt_1.jpg) -5243px 0;
+   margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+#alpha_8{
+    
+    display: none;
+
+}
+
+
+/*
+CSS for Hae
+*/
+
+
+
+.content #alpha_9:target{
+    
+   display: block;
+    background: url(../img/sprt_1.jpg) -5992px 0;
+ margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+#alpha_9{
+    
+    display: none;
+
+}
+
+/*
+CSS for Khae
+*/
+
+
+
+.content #alpha_10:target{
+    
+   display: block;
+    background: url(../img/sprt_1.jpg) -6741px 0;
+   margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+#alpha_10{
+    
+    display: none;
+
+}
+
+
+
+/*
+CSS for Alif
+*/
+
+.content #alpha_11:target{
+    
+    display: block;
+    background: url(../img/sprt_2.jpg) 0px 0;
+    margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+   
+
+}
+
+#alpha_11{
+    
+    display: none;
+
+}
+
+
+
+/*
+CSS for Bae
+*/
+
+.content #alpha_12:target{
+    
+    display: block;
+    background: url(../img/sprt_2.jpg) -749px 0;
+   margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+#alpha_12{
+    
+    display: none;
+
+}
+
+
+/*
+CSS for Pae
+*/
+
+.content #alpha_13:target{
+    
+   display: block;
+    background: url(../img/sprt_2.jpg) -1498px 0;
+     margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+#alpha_13{
+    
+    display: none;
+
+}
+
+
+
+/*
+CSS for Tae
+*/
+
+
+
+.content #alpha_14:target{
+    
+   display: block;
+    background: url(../img/sprt_2.jpg) -2247px 0;
+     margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+#alpha_14{
+    
+    display: none;
+
+}
+
+
+
+
+/*
+CSS for TTae
+*/
+
+
+
+.content #alpha_15:target{
+    
+   display: block;
+    background: url(../img/sprt_2.jpg) -2996px 0;
+    margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+#alpha_15{
+    
+    display: none;
+
+}
+
+
+/*
+CSS for Sae
+*/
+
+
+
+.content #alpha_16:target{
+    
+   display: block;
+    background: url(../img/sprt_2.jpg) -3745px 0;
+     margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+#alpha_16{
+    
+    display: none;
+
+}
+
+
+/*
+CSS for Jeem
+*/
+
+
+
+.content #alpha_17:target{
+    
+   display: block;
+    background: url(../img/sprt_2.jpg) -4494px 0;
+     margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+#alpha_17{
+    
+    display: none;
+
+}
+
+
+/*
+CSS for Chae
+*/
+
+
+
+.content #alpha_18:target{
+    
+   display: block;
+    background: url(../img/sprt_2.jpg) -5243px 0;
+   margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+#alpha_18{
+    
+    display: none;
+
+}
+
+
+/*
+CSS for Hae
+*/
+
+
+
+.content #alpha_19:target{
+    
+   display: block;
+    background: url(../img/sprt_2.jpg) -5992px 0;
+ margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+#alpha_19{
+    
+    display: none;
+
+}
+
+/*
+CSS for Khae
+*/
+
+
+
+.content #alpha_20:target{
+    
+   display: block;
+    background: url(../img/sprt_2.jpg) -6741px 0;
+   margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+#alpha_20{
+    
+    display: none;
+
+}
+
+
+
+
+/*
+CSS for Alif
+*/
+
+.content #alpha_21:target{
+    
+    display: block;
+    background: url(../img/sprt_3.jpg) 0px 0;
+    margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+   
+
+}
+
+#alpha_21{
+    
+    display: none;
+
+}
+
+
+
+/*
+CSS for Bae
+*/
+
+.content #alpha_22:target{
+    
+    display: block;
+    background: url(../img/sprt_3.jpg) -749px 0;
+   margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+#alpha_22{
+    
+    display: none;
+
+}
+
+
+/*
+CSS for Pae
+*/
+
+.content #alpha_23:target{
+    
+   display: block;
+    background: url(../img/sprt_3.jpg) -1498px 0;
+     margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+#alpha_23{
+    
+    display: none;
+
+}
+
+
+
+/*
+CSS for Tae
+*/
+
+
+
+.content #alpha_24:target{
+    
+   display: block;
+    background: url(../img/sprt_3.jpg) -2247px 0;
+     margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+#alpha_24{
+    
+    display: none;
+
+}
+
+
+
+
+/*
+CSS for TTae
+*/
+
+
+
+.content #alpha_25:target{
+    
+   display: block;
+    background: url(../img/sprt_3.jpg) -2996px 0;
+    margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+#alpha_25{
+    
+    display: none;
+
+}
+
+
+/*
+CSS for Sae
+*/
+
+
+
+.content #alpha_26:target{
+    
+   display: block;
+    background: url(../img/sprt_3.jpg) -3745px 0;
+     margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+#alpha_26{
+    
+    display: none;
+
+}
+
+
+/*
+CSS for Jeem
+*/
+
+
+
+.content #alpha_27:target{
+    
+   display: block;
+    background: url(../img/sprt_3.jpg) -4494px 0;
+     margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+#alpha_27{
+    
+    display: none;
+
+}
+
+
+/*
+CSS for Chae
+*/
+
+
+
+.content #alpha_28:target{
+    
+   display: block;
+    background: url(../img/sprt_3.jpg) -5243px 0;
+   margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+#alpha_28{
+    
+    display: none;
+
+}
+
+
+/*
+CSS for Hae
+*/
+
+
+
+.content #alpha_29:target{
+    
+   display: block;
+    background: url(../img/sprt_3.jpg) -5992px 0;
+ margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+#alpha_29{
+    
+    display: none;
+
+}
+
+/*
+CSS for Khae
+*/
+
+
+
+.content #alpha_30:target{
+    
+   display: block;
+    background: url(../img/sprt_3.jpg) -6741px 0;
+   margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+#alpha_30{
+    
+    display: none;
+
+}
+
+
+
+
+/*
+CSS for Alif
+*/
+
+.content #alpha_31:target{
+    
+    display: block;
+    background: url(../img/sprt_4.jpg) 0px 0;
+    margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+   
+
+}
+
+#alpha_31{
+    
+    display: none;
+
+}
+
+
+
+/*
+CSS for Bae
+*/
+
+.content #alpha_32:target{
+    
+    display: block;
+    background: url(../img/sprt_4.jpg) -749px 0;
+   margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+#alpha_32{
+    
+    display: none;
+
+}
+
+
+/*
+CSS for Pae
+*/
+
+.content #alpha_33:target{
+    
+   display: block;
+    background: url(../img/sprt_4.jpg) -1498px 0;
+     margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+#alpha_33{
+    
+    display: none;
+
+}
+
+
+
+/*
+CSS for Tae
+*/
+
+
+
+.content #alpha_34:target{
+    
+   display: block;
+    background: url(../img/sprt_4.jpg) -2247px 0;
+     margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+#alpha_34{
+    
+    display: none;
+
+}
+
+
+
+
+/*
+CSS for TTae
+*/
+
+
+
+.content #alpha_35:target{
+    
+   display: block;
+    background: url(../img/sprt_4.jpg) -2996px 0;
+    margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+#alpha_35{
+    
+    display: none;
+
+}
+
+
+/*
+CSS for Sae
+*/
+
+
+
+.content #alpha_36:target{
+    
+   display: block;
+    background: url(../img/sprt_4.jpg) -3745px 0;
+     margin-top: 20px;
+    width: 60%;
+    height:300px;
+    border-style: solid;
+    border-color: #FE2E2E;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+#alpha_36{
+    
+    display: none;
+
+}
+
+
+
+
